@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2? family=Changa+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Ultra&display=swap');
+body {
+    background-image: url(./img/noah-pienaar-gpYTvcem2mQ-unsplash.jpg);
+    background-repeat: no-repeat;
+    padding: 20px;
+    text-transform: uppercase;
+    background-size: cover;
+    background-position-y: center;
+    border-radius: 3px;
+	margin-bottom: 40px;
+}
+
+
+.container-header {
+	background-color: #212121;
+	color: #fff;
+	padding: 20px;
+    font-family: 'Changa One', cursive;
+}
+
+.container-header h1 {
+	margin: 0;
+    font-family: 'Bowlby One SC', cursive;
+    font-family: 'Ultra', serif;
+    color: darkgrey;
+}
+
+.container-header ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: flex-end;
+    font-family: 'Bowlby One SC', cursive;
+    font-family: 'Ultra', serif;
+}
+
+.links {
+    color:darkgrey;
+}
+
+
+.links:hover {
+   color: darkgrey;
+}
+
+
+.container-header nav li {
+	margin-left: 20px;
+}
+
+.container-header nav li:first-child {
+	margin-left: 0;
+}
+
+.container-header nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Estilo para el contenido principal */
+.container-main {
+	max-width: 800px;
+	margin: 40px auto;
+	padding: 0 20px;
+    font-family: 'Changa One', cursive;
+}
+
+.link-libros {
+    color: #fff;
+}
+.metas {
+    background: linear-gradient(rgba(5,7,12, 0.75),rgba(5,7,12, 0.75)),  url(./img/alina-bordunova-MOwIwjLCtSI-unsplash.jpg);
+    padding: 20px;
+    text-transform: uppercase;
+    background-size: cover;
+    background-position-y: center;
+    border-radius: 3px;
+	margin-bottom: 40px;
+    color: #fff;
+}
+
+.libros {
+    background: linear-gradient(rgba(2,5,8, 0.65),rgba(2,5,8, 0.65)), url(./img/jauzax-gkYVkBoR4HY-unsplash.jpg);
+    padding: 20px;
+    text-transform: uppercase;
+    background-size: cover;
+    background-position-y: center;
+    border-radius: 3px;
+	margin-bottom: 40px;
+    color: #fff;
+}
+
+
+.rutinas {
+    background: linear-gradient(rgba(2,5,8, 0.65),rgba(2,5,8, 0.65)), url(./img/sebastian-alvarez-3kdY4px7Ldw-unsplash.jpg);
+    padding: 20px;
+    text-transform: uppercase;
+    background-size: cover;
+    background-position-y: center;
+    border-radius: 3px;
+	margin-bottom: 40px;
+    color: #fff;
+
+}
+
+.alimentacion {
+    background: linear-gradient(rgba(2,5,8, 0.65),rgba(2,5,8, 0.65)), url(./img/abdalla-m-zq3fn_UhE3Y-unsplash.jpg);
+    padding: 20px;
+    text-transform: uppercase;
+    background-size: cover;
+    background-position-y: center;
+    border-radius: 3px;
+	margin-bottom: 40px;
+    color: #fff;
+
+}
+
+section h2 {
+	margin-top: 0;
+}
+
+
+section ol {
+	margin: 0;
+	padding-left: 20px;
+}
+
+/* Estilo para el pie de página */
+footer {
+    background: darkgrey;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+    font-family: 'Changa One', cursive;
+
+}
+
+.link-mas {
+    color: #000000;
+}
+
+#libross {
+    color: #fff;
+}
+
+
+footer p {
+	margin: 0;
+    font-family: 'Changa One', cursive;
+}
